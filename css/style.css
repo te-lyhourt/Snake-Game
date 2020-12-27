@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myGame{
+
+    border: 1px solid black;
+    display: block;
+    margin: 20px auto;
+    
+}
+
+.start{
+
+    z-index:2; 
+    position:absolute; 
+    font-family: 'Bangers', cursive;
+    top:500px;
+    width: 135px;
+    letter-spacing: 2px;
+}
+
+.restart{
+    z-index:2; 
+    position:absolute; 
+    top:550px;
+    visibility: hidden;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+
+
+button:hover{
+    box-shadow: 0 20px 20px rgb(0,0,0,0.2) , 0 50px 50px rgb(0,0,0,0.2);
+}
